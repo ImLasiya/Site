@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card with tabs</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-cover"></div>
+        <img src="img/profile.jpg" alt="">
+        <h1>albert feynmac</h1>
+        <h2>web developer</h2>
+      </div>
+      <div class="card-main">
+        <div class="card-section active" id="about">
+          <div class="card-content">
+            <h4 class="card-title">
+              about
+            </h4>
+            <p class="card-desc">
+              Lorem ipsum dolor, sit amet
+               consectetur adipisicing elit. 
+               Velit nesciunt dolores corporis
+               nisi accusamus voluptatum.
+            </p>
+          </div>
+          <div class="card-social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="card-section" id="experience">
+          <div class="card-content">
+            <h4 class="card-title">
+              experience
+            </h4>
+            <div class="card-work">
+              <div class="card-item" data-work="2015">
+                <div class="card-item-title">
+                  Front-end Developer
+                </div>
+                <div class="card-item-desc">
+                  Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </div>
+              </div>
+              <div class="card-item" data-work="2017">
+                <div class="card-item-title">
+                  Back-end Developer
+                </div>
+                <div class="card-item-desc">
+                  Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </div>
+              </div>
+              <div class="card-item" data-work="2019">
+                <div class="card-item-title">
+                  UI Web Design
+                </div>
+                <div class="card-item-desc">
+                  Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </div>
+              </div>
+              <div class="card-item" data-work="2021">
+                <div class="card-item-title">
+                  Full-Stack Developer
+                </div>
+                <div class="card-item-desc">
+                  Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-section" id="contact">
+          <div class="card-content">
+            <h4 class="card-title">
+              contact
+            </h4>
+            <div class="card-contact-wrapper">
+              <div class="card-contact">
+                <i class="fas fa-map-marker-alt"></i>
+                123 stree new york city united states
+                of america 750
+                </div>
+                <div class="card-contact">
+                <i class="fas fa-phone-alt"></i>
+                +809272561823
+              </div>
+              <div class="card-contact">
+                <i class="fas fa-envelope"></i>
+                albert@feynmac.com
+              </div>
+              <button class="contact-me">
+                contact-me
+              </button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="card-buttons">
+          <button data-section="about" class="active">about</button>
+          <button data-section="experience">experience</button>
+          <button data-section="contact">contact</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
